@@ -1,0 +1,51 @@
+﻿.padding-large {
+    padding: 22px 24px !important;
+}
+.xlarge {
+    font-size: 24px !important;
+  
+}
+.display-topleft {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+.jumbo {
+    font-size: 64px !important;
+}
+.display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+animate-top {
+    position: relative;
+    animation: animatetop 0.4s;
+}
+.bgimg {
+    background-image: url("Göreseller/forestbridge.jpg") ;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.txt-white{
+    color:white
+}
+.animate-opacity {
+    animation: opac 0.8s;
+}
+.hr {
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.bottomRight {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.bottomleft {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
